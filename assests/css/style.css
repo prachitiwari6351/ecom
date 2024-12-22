@@ -1,0 +1,7 @@
+.navbar-nav{
+    text-align: right;
+    color: white;
+}
+.navbar{
+    display: flex;
+}
