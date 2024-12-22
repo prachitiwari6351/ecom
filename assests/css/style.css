@@ -1,7 +1,43 @@
-.navbar-nav{
-    text-align: right;
-    color: white;
+/* Root Variables for Color Palette */
+:root {
+    /* Primary Colors */
+    --primary-blue: #007BFF;
+    --primary-orange: #424140;
+
+    /* Secondary Colors */
+    --secondary-light-gray: #F4F4F4;
+    --secondary-dark-gray: #333333;
+
+    /* Accent Colors */
+    --accent-mint-green: #98D7A4;
+    --accent-soft-yellow: #FFDD67;
+
+    /* Neutral Colors */
+    --neutral-white: #FFFFFF;
+    --neutral-charcoal-gray: #444444;
+    --neutral-off-white: #F9F9F9;
 }
-.navbar{
+
+.navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-light-gray);
+}
+.navbar-nav a{
+    color: var(--primary-blue);
+    text-decoration: none;
+    padding: 20px;
+}
+input{
+    width: 40vh;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+.btn{
+    width: 10vh;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #7d99b7;
 }
