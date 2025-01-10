@@ -162,10 +162,13 @@ img {
     width: 100vh;
     height: 25vh;
     margin: 20px;
+
 }
 .container-banners{
     display: flex;
     justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .comment{
     background-color: #F7F7F8;
