@@ -228,3 +228,12 @@ img {
     margin-top: 20px;
     background-color: var(--secondary-dark-gray);
 }
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
