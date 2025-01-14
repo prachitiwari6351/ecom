@@ -238,3 +238,8 @@ img {
 nav .fa{
     display: none;
 }
+.cards i{
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
