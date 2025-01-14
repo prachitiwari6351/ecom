@@ -25,6 +25,10 @@
     animation-duration: 1.5s;
 }
 
+.search{
+    margin-left: 60px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -38,7 +42,7 @@
 .navbar-nav a {
     color: var(--primary-blue);
     text-decoration: none;
-    padding: 50px;
+    padding: 20px;
 }
 
 input {
@@ -122,7 +126,11 @@ img {
 .heading {
     text-align: center;
     font-size: 2rem;
-    /* margin: 50px; */
+}
+.headings{
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px;
 }
 
 .cateogry1{
@@ -186,6 +194,7 @@ img {
     width: 50vh;
     height: 50vh;
     margin: 20px;
+    align-items: center;
 }
 .comment-section{
     display: flex;
